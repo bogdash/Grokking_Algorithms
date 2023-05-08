@@ -1,7 +1,8 @@
 fun main() {
-    println(quickSort(array = arrayListOf(10, 5, 2, 3, 3)))
-    println(sum(list = arrayListOf(10, 5, 2, 3, 3, 14)))
-    println(count(list = arrayListOf(10, 5, 2, 3, 3, 14)))
+    val list = arrayListOf(10, 5, 2, 3, 3, 14)
+    println(quickSort(list))
+    println(sum(list))
+    println(count(list))
     println(max(list))
 }
 
